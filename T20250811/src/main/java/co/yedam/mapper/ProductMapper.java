@@ -10,5 +10,5 @@ public interface ProductMapper {
     // 상품목록 메소드정의.
 	List<ProductVO> selectMain();
 	// 상품상세 메소드정의.
-	
+	ProductVO selectInfo(String prdCode);
 }

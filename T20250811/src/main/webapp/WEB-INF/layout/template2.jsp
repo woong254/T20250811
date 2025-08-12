@@ -4,12 +4,12 @@
 <!-- template 파일. -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+ <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Shop Homepage - Start Bootstrap Template</title>
+        <title>Shop Item - Start Bootstrap Template</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -18,26 +18,13 @@
         <link href="./css/styles.css" rel="stylesheet" />
     </head>
     <body>
-		<tiles:insertAttribute name="menu" />
-        <!-- Header --> 
-        <header class="bg-dark py-5">
-            <div class="container px-4 px-lg-5 my-5">
-                <div class="text-center text-white">
-                    <h1 class="display-4 fw-bolder">Shop in style</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">With this shop homepage template</p>
-                </div>
-            </div>
-        </header>
-        <!-- Section-->
-        <section class="py-5">
-            <div class="container px-4 px-lg-5 mt-5">
-                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                <tiles:insertAttribute name="body" />
-                </div>
-            </div>
-        </section>
+        <!-- Navigation-->
+        <tiles:insertAttribute name="menu2" />
+        <!-- Product section-->
+        <tiles:insertAttribute name="body2" />
+        <!-- Related items section-->
         <!-- Footer-->
-		<tiles:insertAttribute name="footer" />
+		<tiles:insertAttribute name="footer2" />
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

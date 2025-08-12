@@ -10,5 +10,5 @@ public interface ProductService {
 	// 상품목록 메소드정의.
 	List<ProductVO> productList();
 	// 상품상세 메소드정의.
-	
+	ProductVO productInfo(String prdCode);
 }

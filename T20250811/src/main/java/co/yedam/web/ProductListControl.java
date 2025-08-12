@@ -21,7 +21,6 @@ public class ProductListControl implements Control {
 		
 		req.setAttribute("products",list);
 		
-		System.out.println(list);
 		req.getRequestDispatcher("product/productList.tiles")
 		.forward(req, resp);
 	}

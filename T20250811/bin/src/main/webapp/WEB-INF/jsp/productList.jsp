@@ -7,7 +7,7 @@
 		<div class="badge bg-dark text-white position-absolute"
 			style="top: 0.5rem; right: 0.5rem">Sale</div>
 		<!-- Product image-->
-		<a href="productInfo.do?prodCode=${p.prdCode}"><img class="card-img-top" src="./images/${p.prodImage}" alt="..." /></a>
+		<a href="product.html"><img class="card-img-top" src="./images/${p.prodImage}" alt="..." /></a>
 		<!-- Product details-->
 		<div class="card-body p-4">
 			<div class="text-center">

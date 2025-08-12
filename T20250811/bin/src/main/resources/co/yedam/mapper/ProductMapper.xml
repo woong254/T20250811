@@ -24,11 +24,5 @@
 	  from product_tbl
 	</select>
 	<!-- 상품상세 쿼리. -->
-	<select id="selectInfo" parameterType="String" resultType="product">
-	  select *
-	  from product_tbl
-	  where prd_code = #{prdCode}
-	</select>
-	
 
 </mapper>
