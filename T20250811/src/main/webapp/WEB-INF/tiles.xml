@@ -2,6 +2,7 @@
 <!DOCTYPE tiles-definitions PUBLIC
        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+       
 <tiles-definitions>
 
   <!-- 아래 샘플을 참고해서 작성하세요. -->
@@ -28,13 +29,13 @@
     <put-attribute name="body" value="/WEB-INF/jsp/{1}.jsp" />
   </definition>
   
-   <definition name="myapp.common" template="/WEB-INF/layout/template2.jsp">
+   <definition name="myapp2.common" template="/WEB-INF/layout/template2.jsp">
     <put-attribute name="title2" value="상세페이지" />
     <put-attribute name="menu2" value="/WEB-INF/layout/menu2.jsp" />
     <put-attribute name="footer2" value="/WEB-INF/layout/footer2.jsp" />
   </definition>
   
-  <definition name="WILDCARD:product2/*" extends="myapp.common">
+  <definition name="WILDCARD:product2/*" extends="myapp2.common">
     <put-attribute name="body2" value="/WEB-INF/jsp/{1}.jsp" />
   </definition> 
   
